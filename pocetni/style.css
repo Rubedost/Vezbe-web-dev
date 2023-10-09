@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.margins {
+  margin: 0 10%;
+}
+
+.kockaContainer {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.kocka {
+  width: 200px;
+  aspect-ratio: 1;
+  border: 1px solid purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.obojeno {
+  background-color: red;
+}
